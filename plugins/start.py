@@ -27,11 +27,11 @@ async def start(client,message):
 	await message.reply_text(text =f"""
 	Hello {wish} {message.from_user.first_name }
 	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filename to rename it__
+	**Document Or Video** and enter new filename to rename it. My owner - @about_tosuu __
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/nothing_bots_support") ], 
+	[InlineKeyboardButton("Subscribe 🧐", url="https://t.me/about_tosuu") ]  ]))
 
 
 
